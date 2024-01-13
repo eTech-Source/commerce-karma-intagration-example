@@ -1,0 +1,42 @@
+@use "globals";
+
+.customerProfileHeader {
+    background-color: globals.$primary-color;
+    color: white;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.profileInfo {
+    margin-top: 2rem;
+
+    .infoHeader {
+        background-color: globals.$primary-color-light;
+        color: white;
+        padding: 0.5rem;
+        font-size: 0.75rem;
+        border-radius: 1rem 1rem 0 0;
+    }
+
+    .contacts {
+        border-radius: 1rem;
+        border: 1px solid black;
+
+        .contactInfo {
+            margin: 0.5rem;
+        }
+    }
+}
+
+.info {
+    background-color: rgb(181, 179, 179);
+    width: 20%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+}
