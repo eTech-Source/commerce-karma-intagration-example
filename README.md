@@ -1,4 +1,5 @@
 # Commerce Karma Integration Example
+## **Outdated** this repo is currently not using the current Commmerce Karma Components Light Package
 A simple Next.js project showing how to configure Commerce Karma Components Light.
 
 # Get the project running on your machine
